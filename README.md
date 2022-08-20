@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./public/spotify.svg"> 
+    <img src="./public/spotify.svg" width="200" height="200"> 
 </div>
 
 <div align="center">
