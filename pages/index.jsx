@@ -1,13 +1,12 @@
 import Head from "next/head";
+import SideBar from "../components/SideBar";
 
 const Home = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <Head>
-        <title>Spotify-Clone</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <h1>Spotify-Clone</h1>
+    <div className="bg-black h-screen overflow-hidden">
+      <main>
+        <SideBar/>
+      </main>
     </div>
   );
 };
