@@ -7,7 +7,7 @@ const Login = (props) => {
 
   return (
     <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
-      {/* <img src={spotifyIcon} width="200" height="200" alt="Spotify Logo"/> */}
+      {/* <img src={spotifyIcon}  alt="Spotify Logo"/> */}
       <img
         className="w-52 mb-5"
         src="https://img.icons8.com/bubbles/500/000000/spotify.png"
