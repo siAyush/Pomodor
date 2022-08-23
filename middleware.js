@@ -3,7 +3,6 @@ import { NextResponse } from "next/server";
 
 export async function middleware(req) {
   const { pathname } = req.nextUrl;
-  console.log(pathname);
   const token = await getToken({ req, secret: process.env.JWT_SECRET });
   // token exist
   if (pathname.includes("api/auth") || token) {
