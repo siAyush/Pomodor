@@ -1,6 +1,6 @@
 import NextAuth from "next-auth";
 import SpotifyProvider from "next-auth/providers/spotify";
-import { LOGIN_URL, spotifyApi } from "../../lib/util";
+import { LOGIN_URL, spotifyApi } from "../../../lib/util";
 
 const refreshToken = async (token) => {
   try {
