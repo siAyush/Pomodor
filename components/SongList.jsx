@@ -38,7 +38,7 @@ const SongList = () => {
   }, [spotifyApi, playlistId]);
 
   return (
-    <div className="flex-grow text-white">
+    <div className="flex-grow text-white h-screen overflow-y-scroll scrollbar-hide">
       <header className="absolute top-5 right-8">
         <div
           className="flex items-center text-white bg-black space-x-3 opacirt-90 hover:opacity-80 

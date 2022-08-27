@@ -33,12 +33,12 @@ const SideBar = () => {
       hidden md:inline-flex"
     >
       <div className="space-y-4">
-        <button
+        {/* <button
           className="flex items-center space-x-2 hover:text-white"
           onClick={() => signOut()}
         >
           LogOut
-        </button>
+        </button> */}
         <button className="flex items-center space-x-2 hover:text-white">
           <HomeIcon className="h-5 w-5" />
           Home
