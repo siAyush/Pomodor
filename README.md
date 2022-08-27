@@ -22,3 +22,4 @@ $ npm run dev
 - Tailwind CSS
 - Heroicons
 - NextAuth.js
+- Recoil
