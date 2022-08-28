@@ -23,3 +23,13 @@ $ npm run dev
 - Heroicons
 - NextAuth.js
 - Recoil
+
+## Environment Variables
+- Create .env file
+-  Add this values
+```
+NEXTAUTH_URL = http://localhost:3000
+NEXT_PUBLIC_CLIENT_SECRET = ''
+NEXT_PUBLIC_CLIENT_ID = ''
+JWT_SECRET = secret_value
+```

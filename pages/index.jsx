@@ -1,4 +1,5 @@
 import { getSession } from "next-auth/react";
+import Player from "../components/Player";
 import SideBar from "../components/SideBar";
 import SongList from "../components/SongList";
 
@@ -10,6 +11,9 @@ const Home = () => {
           <SideBar />
           <SongList />
         </main>
+        <div className="sticky bottom-0">
+          <Player />
+        </div>
       </div>
     </>
   );
