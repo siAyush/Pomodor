@@ -7,6 +7,16 @@
 
 Spotify Clone
 
+### Features
+- Play full audio tracks.
+- Control playback (pause, volume, shuffle, etc).
+- Add or edit your playlists.
+- See your recently played tracks and your top artists.
+- Follow and unfollow playlists and artists.
+- Add or remove tracks from your library.
+- Change the device in which you are currently playing.
+- Search tracks, albums, artists and playlists.
+
 ## Setup Locally
 
 ```
